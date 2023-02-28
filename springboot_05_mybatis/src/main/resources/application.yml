@@ -1,0 +1,8 @@
+#2.\u914D\u7F6E\u76F8\u5173\u4FE1\u606F
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/boot_db
+    username: root
+    password: ytyt420ztzt
+

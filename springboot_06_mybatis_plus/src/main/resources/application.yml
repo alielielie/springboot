@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/boot_db
+    username: root
+    password: ytyt420ztzt
+
+#\u8BBE\u7F6EMP\u76F8\u5173\u7684\u914D\u7F6E
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
